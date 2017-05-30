@@ -1,0 +1,172 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif ;
+}
+
+h1{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+.pedro-img{
+	height: 250px; 
+	width: auto; 
+	display: block;
+	margin: 0 auto;
+}
+
+.social {
+	margin-top: 20px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	height: 30px;
+	width: 30px;
+}
+
+.social:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.social-link{
+	margin-top: -35px; 
+	margin-left: 40px;
+}
+
+.mackenzie {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	height: 25px;
+	width: auto;
+}
+
+.mackenzie:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.microsoft {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.microsoft:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.certifications{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.certifications:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.pedro-img{
+		display: block;
+		margin: 0 auto;
+		height: 200px;
+	  }
+	#logo{
+		font-size: 	14px;
+	}
+	.microsoft{
+		display: block;
+		margin: 0 auto;
+	}
+	h2{
+		text-align: center;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.pedro-img{
+		display: block;
+		margin: 0 auto;
+		height: 200px;
+	  }
+	  #logo{
+		font-size: 	14px;
+	}
+	.microsoft{
+		display: block;
+		margin: 0 auto;
+	}
+	h2{
+		text-align: center;
+	}
+	#infos p{
+		text-align: center;
+	}
+	#infos h2{
+		text-align: center;
+	}
+	#infos h4{
+		text-align: center;
+	}
+	#work-title{
+		text-align: center;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	.pedro-img{
+		display: block;
+		margin: 0 auto;
+		height: 200px;
+	  }
+	.social-link{
+		display: none;
+	}
+	.contact{
+		text-align: center;
+	}
+	#logo{
+		font-size: 	14px;
+	}
+	.microsoft{
+		display: block;
+		margin: 0 auto;
+	}
+	h2{
+		text-align: center;
+	}
+	#infos h4,p{
+		text-align: center;
+	}
+	#work-title{
+		text-align: center;
+	}
+	
+}
