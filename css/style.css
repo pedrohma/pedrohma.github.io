@@ -10,6 +10,11 @@ h3{
 	text-align: center;
 }
 
+h5{
+	margin-top: 20px;
+	text-align: center;
+}
+
 .pedro-img{
 	height: 250px; 
 	width: auto; 
@@ -68,6 +73,7 @@ h3{
 }
 
 .certifications{
+	margin-left: 20px;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
@@ -77,6 +83,43 @@ h3{
 .certifications:hover{
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+}
+
+.fa-trophy{
+	color: #e5ad00;
+}
+
+.fa-graduation-cap{
+	color: black;
+}
+
+.fa-desktop{
+	color: #c7c7c7;
+}
+
+.fa-certificate{
+	color: #df7979;
+}
+
+.fa-mobile{
+	color: #333333;
+	font-size: 24px;
+}
+
+.fa-cloud{
+	color: #ffffff;
+}
+
+.fa-laptop{
+	color: #b0b0b0;
+}
+
+.fa-language{
+	color: #33a9f0;
+}
+
+.fa-pencil{
+	color: #ffbf45;
 }
 
 /* Large Devices, Wide Screens */
@@ -137,6 +180,9 @@ h3{
 	#work-title{
 		text-align: center;
 	}
+	#infos p{
+		margin-left: 20px;
+	}
 }
 
 /* Custom, iPhone Retina */ 
@@ -167,6 +213,9 @@ h3{
 	}
 	#work-title{
 		text-align: center;
+	}
+	#infos p{
+		margin-left: 20px;
 	}
 	
 }
