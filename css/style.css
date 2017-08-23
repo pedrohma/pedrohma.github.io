@@ -122,6 +122,32 @@ h5{
 	color: #ffbf45;
 }
 
+.fa-hand-o-right{
+	font-size: 12pt;
+}
+
+#titles{
+	text-align: center;
+}
+
+#currentlyStudying{
+	text-align: right;
+}
+
+.fa-book{
+	color: #e36a6a;
+}
+
+.img-book{
+	height: 200px;
+	width: 150px;
+}
+
+.fa-question-circle{
+	color: #81b9ec;
+	font-weigth: bold;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
@@ -147,6 +173,9 @@ h5{
 		margin: 0 auto;
 	}
 	h2{
+		text-align: center;
+	}
+	#currentlyStudying{
 		text-align: center;
 	}
 }
@@ -182,6 +211,9 @@ h5{
 	}
 	#infos p{
 		margin-left: 20px;
+	}
+	#currentlyStudying{
+		text-align: center;
 	}
 }
 
@@ -219,5 +251,8 @@ h5{
 	}
 	#txtKnwolegde{
 		font-size: 20pt;
+	}
+	#currentlyStudying{
+		text-align: center;
 	}
 }

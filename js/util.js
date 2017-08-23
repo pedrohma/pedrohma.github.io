@@ -80,10 +80,14 @@ function collapseTab(text){
 function checkClass(id){
 	var className = $(id).attr('class');
 	if(className == 'collapse'){
-		// When it open
+		// When it's open
 		return true;
 	}
 	else{
 		return false;
 	}
+}
+
+function openModal(){
+	$("#studying").modal();
 }
