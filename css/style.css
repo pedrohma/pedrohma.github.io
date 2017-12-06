@@ -256,3 +256,61 @@ h5{
 		text-align: center;
 	}
 }
+
+.xmas{
+	width:100%;
+
+	margin: 0 auto;
+	text-align: center;
+
+	color:#313131;
+	font-size:45px;
+	font-weight: bold;
+	position: absolute;
+	-webkit-animation:colorchange 5s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+      0% {
+        color: #ff4848;
+      }
+      
+      10% {
+        color: #41f63b;
+      }
+      
+      20% {
+        color: #ff4848;
+      }
+      
+      30% {
+        color: #41f63b;
+      }
+      
+      40% {
+        color: #ff4848;
+      }
+      
+      50% {
+        color: #41f63b;
+      }
+      
+      60% {
+        color: #ff4848;
+      }
+      
+      70% {
+        color: #41f63b;
+      }
+      80% {
+        color: #ff4848;
+      }
+      
+      90% {
+        color: #41f63b;
+      }
+      
+      100% {
+        color: #ff4848;
+      }
+    }
