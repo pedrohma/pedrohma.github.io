@@ -259,14 +259,11 @@ h5{
 
 .xmas{
 	width:100%;
-
 	margin: 0 auto;
 	text-align: center;
-
 	color:#313131;
 	font-size:45px;
 	font-weight: bold;
-	position: absolute;
 	-webkit-animation:colorchange 5s infinite alternate;
 }
 
