@@ -9,79 +9,84 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="manifest" href="/manifest.webmanifest">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /> -->
 
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/util.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/custom/css/custom.css" />
+	<script type="text/javascript" src="assets/bootstrap/jquery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/custom/js/util.js"></script>
 
 </head>
 
 <body class="well">
 
-	<nav class="navbar navbar-default navbar-fixed-top" style=" position: fixed; ">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-				 aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<i class="fa fa-bars" aria-hidden="true"></i>
-				</button>
-				<a class="navbar-brand" href="index.html" id="logo">Pedro Henrique de Miranda Arthur</a>
-			</div>
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-left">
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li>
-						<a href="files/ResumePedro2018.pdf" download>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="index.html">
+			<strong>PHMA</strong>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+		 aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarText">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="moreInfo.html">
+						<span class="oi oi-brush" aria-hidden="true"></span> More Info</a>
+				</li>
+			</ul>
+			<div class="mt-2 mt-lg-0">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="files/ResumePedro2018.pdf" download>
 							<i class="fa fa-download" aria-hidden="true"></i> Download CV</a>
 					</li>
-					<li class="active">
-						<a href="moreInfo.html">More Info</a>
-					</li>
-					<li>
-						<a href="contact.html">Contact</a>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
-			<!--/.nav-collapse -->
 		</div>
 	</nav>
 
-	<div class="row" style="margin-top: -20px;">
+	<div class="row" style="margin-top: 20px;">
 
 		<div class="col-md-2">
 		</div>
 
 		<div class="col-md-8">
 			<div class="row" style="margin-top: 50px;">
-				<h2>Pedro Henrique de Miranda Arthur</h2>
-				<hr/ style="border: 1pt solid #dbe3f6;">
-					<div id="infos">
-						<p>Los Angeles, California</p>
-						<p>
-							<abbr title="Phone">P:</abbr> (310) 402-1702</p>
-						<p>
-							<a href="mailto:pedrohma95@gmail.com">pedrohma95@gmail.com</p>
-						</a>
-					</div>
+				<div class="col-md-12">
+					<h2>Pedro Henrique de Miranda Arthur</h2>
+					<hr/ style="border: 1pt solid #dbe3f6;">
+						<div id="infos">
+							<p>Los Angeles, California</p>
+							<p>
+								<abbr title="Phone">P:</abbr> (310) 402-1702</p>
+							<p>
+								<a href="mailto:pedrohma95@gmail.com">pedrohma95@gmail.com</p>
+							</a>
+						</div>
+				</div>
 			</div>
 
 			<div class="row" id="rowGraduation">
-				<h2>Degrees
-					<a href="#" onclick="collapseTab('graduation');">
-						<i class="fa fa-graduation-cap" aria-hidden="true" style="float:right"></i>
-					</a>
-				</h2>
-				<hr/ style="border: 1pt solid #dbe3f6;">
-					<div id="graduation" class="collapse in">
+				<div class="col-md-12">
+					<div>
+						<h2>Degrees
+							<a href="#" onclick="collapseTab('graduation');">
+								<i class="fa fa-graduation-cap" aria-hidden="true" style="float:right"></i>
+							</a>
+						</h2>
+						<hr/ style="border: 1pt solid #dbe3f6;">
+					</div>
+
+					<div id="graduation" class="collapse in" style="text-align: left;">
 						<h4>
 							<img src="img/ctu.png" alt="CTU" class="mackenzie" /> California Trinity University, Los Angeles, CA, Present</h4>
 						<em>Masters in Systems Information</em>
@@ -93,15 +98,21 @@
 								<img src="img/mackenzie.png" alt="mackenzie" class="mackenzie" /> Mackenzie Presbiterian University, São Paulo, SP, 2015</h4>
 							<em>Technology in Analysis and Development of Systems</em>
 					</div>
+				</div>
+
 			</div>
 
 			<div class="row" id="rowProfessional">
-				<h2>Professional Employment
-					<a href="#" onclick="collapseTab('professional');">
-						<i class="fa fa-desktop" aria-hidden="true" style="float:right"></i>
-					</a>
-				</h2>
-				<hr/ style="border: 1pt solid #dbe3f6;">
+				<div class="col-md-12">
+					<div>
+						<h2>Professional Employment
+							<a href="#" onclick="collapseTab('professional');">
+								<i class="fa fa-desktop" aria-hidden="true" style="float:right"></i>
+							</a>
+						</h2>
+						<hr/ style="border: 1pt solid #dbe3f6;">
+					</div>
+
 					<div id="professional" class="collapse in">
 						<div class="row">
 							<div class="col-md-1">
@@ -188,15 +199,21 @@
 							</div>
 						</div>
 					</div>
+				</div>
+
 			</div>
 
 			<div class="row" id="rowKnowledge">
-				<h2 id="txtKnwolegde">Technical Knowledge
-					<a href="#" onclick="collapseTab('knowledge');">
-						<i class="fa fa-bar-chart" aria-hidden="true" style="float:right"></i>
-					</a>
-				</h2>
-				<hr/ style="border: 1pt solid #dbe3f6;">
+				<div class="col-md-12">
+					<div>
+						<h2 id="txtKnwolegde">Technical Knowledge
+							<a href="#" onclick="collapseTab('knowledge');">
+								<i class="fa fa-bar-chart" aria-hidden="true" style="float:right"></i>
+							</a>
+						</h2>
+						<hr/ style="border: 1pt solid #dbe3f6;">
+					</div>
+
 					<div id="knowledge" class="collapse in">
 						<div class="row">
 							<div class="col-sm-4">
@@ -416,9 +433,8 @@
 								</p>
 							</div>
 						</div>
-
 					</div>
-
+				</div>
 			</div>
 
 			<div class="modal fade" id="studying" role="dialog" style="background-color : transparent;">
@@ -467,12 +483,16 @@
 			</div>
 
 			<div class="row" id="rowCertifications">
-				<h2>Certifications
-					<a href="#" onclick="collapseTab('certifications');">
-						<i class="fa fa-certificate" aria-hidden="true" style="float:right"></i>
-					</a>
-				</h2>
-				<hr/ style="border: 1pt solid #dbe3f6;">
+				<div class="col-md-12">
+					<div>
+						<h2>Certifications
+							<a href="#" onclick="collapseTab('certifications');">
+								<i class="fa fa-certificate" aria-hidden="true" style="float:right"></i>
+							</a>
+						</h2>
+						<hr/ style="border: 1pt solid #dbe3f6;">
+					</div>
+
 					<div id="certifications" class="collapse in">
 						<div class="row">
 							<div class="col-md-12">
@@ -491,42 +511,50 @@
 							</div>
 						</div>
 					</div>
-
-					<div class="row" id="rowHonor">
-						<div class="col-md-12">
-							<h2>Honor & Award
-								<a href="#" onclick="collapseTab('honor');">
-									<i class="fa fa-trophy" aria-hidden="true" style="float:right"></i>
-								</a>
-							</h2>
-							<hr/ style="border: 1pt solid #dbe3f6;">
-								<div id="honor" class="collapse in">
-									<h4>
-										<i class="fa fa-trophy" aria-hidden="true"></i>
-										<small> HCI International Conference 2017 Vancouver (Canada)</small>
-									</h4>
-									<p>Award on the research paper “Framework based on gesture interaction for Educational Games for Learning Assistance
-										in the Reading Process for Children in the Literacy Period”.</p>
-								</div>
-						</div>
-					</div>
-
-					<div class="col-md-2">
-					</div>
-
-			</div>
-
-
-			<div class="row" align="center">
-				<div class="col-md-12">
-					<hr/ style="border: 1pt solid #cecece;">
-						<p>© Pedro Henrique de Miranda Arthur, 2018</p>
-						<p>
-							<a href="about.html">About this Website</a>
-						</p>
 				</div>
 			</div>
 
+			<div class="row" id="rowHonor">
+				<div class="col-md-12">
+					<div>
+						<h2>Honor & Award
+							<a href="#" onclick="collapseTab('honor');">
+								<i class="fa fa-trophy" aria-hidden="true" style="float:right"></i>
+							</a>
+						</h2>
+						<hr/ style="border: 1pt solid #dbe3f6;">
+					</div>
+
+					<div id="honor" class="collapse in">
+						<h4>
+							<i class="fa fa-trophy" aria-hidden="true"></i>
+							<small> HCI International Conference 2017 Vancouver (Canada)</small>
+						</h4>
+						<p>Award on the research paper “Framework based on gesture interaction for Educational Games for Learning Assistance in
+							the Reading Process for Children in the Literacy Period”.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2">
+			</div>
+
+		</div>
+
+		<div class="col-md-2">
+		</div>
+	</div>
+
+
+	<div class="row" align="center">
+		<div class="col-md-12">
+			<hr/ style="border: 1pt solid #cecece;">
+				<p>© Pedro Henrique de Miranda Arthur, 2018</p>
+				<p>
+					<a href="about.html">About this Website</a>
+				</p>
+		</div>
+	</div>
 </body>
 
 
