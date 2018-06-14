@@ -156,6 +156,18 @@ h5{
 	background: #EAE19E;
 }
 
+.nolink{
+	text-decoration: none;
+    color: inherit;
+	cursor: auto;
+}
+
+.nolink:hover{
+	text-decoration: none;
+    color: inherit;
+	cursor: pointer;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
