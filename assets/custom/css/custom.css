@@ -111,7 +111,7 @@ h5{
 }
 
 .fa-cloud{
-	color: #ffffff;
+	color:#fbe4e4;
 }
 
 .fa-laptop{
@@ -154,6 +154,14 @@ h5{
 
 .progress-bar-pl{
 	background: #EAE19E;
+}
+
+.progress-bar-l{
+	background: #b390cc;
+}
+
+.progress-bar-d{
+	background: #9c814e;
 }
 
 .nolink{
