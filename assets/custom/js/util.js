@@ -1,93 +1,100 @@
-function collapseTab(text){
-	
-	switch(text){
+function collapseTab(text) {
+
+	switch (text) {
 		case "graduation":
 			var data = checkClass(graduation);
 			$("#graduation").collapse("toggle");
-			if(data){
+			if (data) {
 				$('html, body').animate({
-				scrollTop: $("#rowGraduation").offset().top -40
+					scrollTop: $("#rowGraduation").offset().top - 40
 				}, 800);
-			}
-			else{
+			} else {
 				$('html, body').animate({
-				scrollTop: $("#rowGraduation").offset().top -40
+					scrollTop: $("#rowGraduation").offset().top - 40
 				}, 800);
 			}
 			break;
 		case "professional":
 			var data = checkClass(professional);
 			$("#professional").collapse("toggle");
-			if(data){
+			if (data) {
 				$('html, body').animate({
-				scrollTop: $("#rowProfessional").offset().top -45
+					scrollTop: $("#rowProfessional").offset().top - 45
 				}, 800);
-			}
-			else{
+			} else {
 				$('html, body').animate({
-				scrollTop: $("#rowProfessional").offset().top -40
+					scrollTop: $("#rowProfessional").offset().top - 40
 				}, 800);
 			}
 			break;
 		case "knowledge":
 			var data = checkClass(knowledge);
 			$("#knowledge").collapse("toggle");
-			if(data){
+			if (data) {
 				$('html, body').animate({
-				scrollTop: $("#rowKnowledge").offset().top -45
+					scrollTop: $("#rowKnowledge").offset().top - 45
 				}, 800);
-			}
-			else{
+			} else {
 				$('html, body').animate({
-				scrollTop: $("#rowKnowledge").offset().top -40
+					scrollTop: $("#rowKnowledge").offset().top - 40
 				}, 800);
 			}
 			break;
 		case "certifications":
 			var data = checkClass(certifications);
 			$("#certifications").collapse("toggle");
-			if(data){
+			if (data) {
 				$('html, body').animate({
-				scrollTop: $("#rowCertifications").offset().top -45
+					scrollTop: $("#rowCertifications").offset().top - 45
 				}, 800);
-			}
-			else{
+			} else {
 				$('html, body').animate({
-				scrollTop: $("#rowCertifications").offset().top -40
+					scrollTop: $("#rowCertifications").offset().top - 40
 				}, 800);
 			}
 			break;
 		case "honor":
 			var data = checkClass(honor);
 			$("#honor").collapse("toggle");
-			if(data){
+			if (data) {
 				$('html, body').animate({
-				scrollTop: $("#rowHonor").offset().top -45
+					scrollTop: $("#rowHonor").offset().top - 45
+				}, 800);
+			} else {
+				$('html, body').animate({
+					scrollTop: $("#rowHonor").offset().top - 40
 				}, 800);
 			}
-			else{
+			break;
+		case "work":
+			var data = checkClass(work);
+			$("#work").collapse("toggle");
+			if (data) {
 				$('html, body').animate({
-				scrollTop: $("#rowHonor").offset().top -40
+					scrollTop: $("#rowWork").offset().top - 45
+				}, 800);
+			} else {
+				$('html, body').animate({
+					scrollTop: $("#rowWork").offset().top - 40
 				}, 800);
 			}
 			break;
 		default:
 			break;
 	}
-	
+
 }
 
-function checkClass(id){
+function checkClass(id) {
 	var className = $(id).attr('class');
-	if(className == 'collapse'){
+	if (className == 'collapse') {
 		// When it's open
 		return true;
-	}
-	else{
+	} else {
 		return false;
 	}
 }
 
-function openModal(){
+function openModal() {
 	$("#studying").modal();
 }

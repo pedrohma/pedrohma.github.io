@@ -176,6 +176,10 @@ h5{
 	cursor: pointer;
 }
 
+.fa-rocket{
+	color: #660066;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
