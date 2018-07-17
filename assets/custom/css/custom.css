@@ -111,7 +111,7 @@ h5{
 }
 
 .fa-cloud{
-	color:#fbe4e4;
+	color:#ffeaea;
 }
 
 .fa-laptop{
@@ -122,12 +122,16 @@ h5{
 	color: #33a9f0;
 }
 
-.fa-pencil{
+.fa-pencil-alt{
 	color: #ffbf45;
 }
 
 .fa-hand-o-right{
 	font-size: 12pt;
+}
+
+.fa-database{
+	color: #a1a1a1;
 }
 
 #titles{
@@ -178,6 +182,40 @@ h5{
 
 .fa-rocket{
 	color: #660066;
+}
+
+#keyboardloop{
+	-webkit-animation: color-change 1s infinite;
+	-moz-animation: color-change 1s infinite;
+	-o-animation: color-change 1s infinite;
+	-ms-animation: color-change 1s infinite;
+	animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+	0% { color: #b4b4b4; }
+	50% { color: #36f443; }
+	100% { color: #b4b4b4; }
+}
+@-moz-keyframes color-change {
+	0% { color: #b4b4b4; }
+	50% { color: #36f443; }
+	100% { color: #b4b4b4; }
+}
+@-ms-keyframes color-change {
+	0% { color: #b4b4b4; }
+	50% { color: #36f443; }
+	100% { color: #b4b4b4; }
+}
+@-o-keyframes color-change {
+	0% { color: #b4b4b4; }
+	50% { color: #36f443; }
+	100% { color: #b4b4b4; }
+}
+@keyframes color-change {
+	0% { color: #b4b4b4; }
+	50% { color: #36f443; }
+	100% { color: #b4b4b4; }
 }
 
 /* Large Devices, Wide Screens */
