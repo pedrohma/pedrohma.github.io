@@ -1,6 +1,23 @@
 body{
 	font-family: "Trebuchet MS", Helvetica, sans-serif ;
+	position: relative;
 }
+
+#intro {
+	padding-top: 50px;
+	height: 100%;
+}
+
+#aboutMe {
+	padding-top: 50px;
+	height: auto;
+}
+
+#contact {
+	padding-top: 50px;
+	height: auto;
+}
+
 
 h1{
 	text-align: center;
@@ -136,6 +153,7 @@ h5{
 
 #titles{
 	text-align: center;
+	margin-top: 40px;
 }
 
 #currentlyStudying{
@@ -182,6 +200,59 @@ h5{
 
 .fa-rocket{
 	color: #660066;
+}
+
+#down{
+	border-style: solid;
+	border-width: 3px;
+	background-color: #cbd3da;
+	border-color: #dad2cb;
+	margin-bottom: 20px;
+}
+
+#down h3{
+	margin-top: 20px;
+}
+
+#down a{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: #dad2cb;
+	border-color: #dad2cb;
+}
+
+#computerloop{
+	-webkit-animation: computer-color-change 1s infinite;
+	-moz-animation: computer-color-change 1s infinite;
+	-o-animation: computer-color-change 1s infinite;
+	-ms-animation: computer-color-change 1s infinite;
+	animation: computer-color-change 1s infinite;
+}
+
+@-webkit-keyframes computer-color-change {
+	0% { color: #b4b4b4; }
+	50% { color: #bd5652; }
+	100% { color: #b4b4b4; }
+}
+@-moz-keyframes computer-color-change {
+	0% { color: #b4b4b4; }
+	50% { color: #bd5652; }
+	100% { color: #b4b4b4; }
+}
+@-ms-keyframes computer-color-change {
+	0% { color: #b4b4b4; }
+	50% { color: #bd5652; }
+	100% { color: #b4b4b4; }
+}
+@-o-keyframes computer-color-change {
+	0% { color: #b4b4b4; }
+	50% { color: #bd5652; }
+	100% { color: #b4b4b4; }
+}
+@keyframes computer-color-change {
+	0% { color: #b4b4b4; }
+	50% { color: #bd5652; }
+	100% { color: #b4b4b4; }
 }
 
 #keyboardloop{

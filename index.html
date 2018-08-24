@@ -1,115 +1,648 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-	<title>PHMA</title>
-	<meta charset="utf-8">
-	<meta name="description" content="Pedro Henrique de Miranda Arthur">
-	<meta name="keywords" content="pedrohma95">
-	<meta name="author" content="Pedro Henrique de Miranda Arthur">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="manifest" href="/manifest.webmanifest">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css" />
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
-	<!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /> -->
+    <title>PHMA</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Pedro Henrique de Miranda Arthur">
+    <meta name="keywords" content="pedrohma95">
+    <meta name="author" content="Pedro Henrique de Miranda Arthur">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/custom/css/custom.css" />
+    <script type="text/javascript" src="assets/bootstrap/jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/custom/js/util.js"></script>
+    <style>
+        body {
+            position: relative;
+        }
 
-	<link rel="stylesheet" type="text/css" href="assets/custom/css/custom.css" />
-	<script type="text/javascript" src="assets/bootstrap/jquery/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
-	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/custom/js/util.js"></script>
+        #intro {
+            padding-top: 50px;
+            height: 100%;
+        }
 
+        #aboutMe {
+            padding-top: 50px;
+            height: auto;
+        }
+
+        #contact {
+            padding-top: 50px;
+            height: auto;
+        }
+    </style>
 </head>
 
-<body class="well">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="index.html">
-			<strong>PHMA</strong>
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-		 aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarText">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">
-						<span class="oi oi-brush" aria-hidden="true"></span> Home</a>
-				</li>
-			</ul>
-			<div class="mt-2 mt-lg-0">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="moreInfo.html">More Info</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="testing.html">
+            <strong><i class="fas fa-laptop" id="computerloop"></i> PHMA</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#intro">
+                        <span class="oi oi-brush" aria-hidden="true"></span> Home</a>
+                </li>
+            </ul>
+            <div class="mt-2 mt-lg-0">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-	<div class="row" style="margin-top: 80px;" align="center">
+    <div id="intro" class="container-fluid">
+        <div class="row" style="margin-top: 100px;">
 
-		<div class="col-md-2">
-		</div>
+            <div class="col-md-2">
+            </div>
 
-		<div class="col-md-8">
-			<div class="col-sm-2">
-			</div>
+            <div class="col-md-8" align="center">
+                <img src="img/pedro.jpg" alt="Pedro Henrique de Miranda Arthur" class="rounded pedro-img" />
+                <h1 style="margin-top: 20px;">Pedro Henrique de Miranda Arthur</h1>
+                <h3>Developer</h3>
+                <h5>
+                    <i class="fa fa-home" aria-hidden="true"></i> Greater Los Angeles, California</h5>
+                <hr style="border: 1pt solid #cecece;">
 
-			<div class="col-sm-8">
-				<img src="img/pedro.jpg" alt="Pedro Henrique de Miranda Arthur" class="rounded pedro-img" />
-				<h1 style="margin-top: 20px;">Pedro Henrique de Miranda Arthur</h1>
-				<h3>Developer</h3>
-				<h5>
-					<i class="fa fa-home" aria-hidden="true"></i> Greater Los Angeles, California</h5>
-				<hr/ style="border: 1pt solid #cecece;">
+                <p>I work exclusively as a programmer and systems analyst since 2014. All my efforts and activities are directed
+                    for the evolution, success and excellence of the people who search for my work.</p>
+                <p>I got my associate degree in Technology and Analysis and Development of Systems and my bachelor’s degree
+                    in Systems Information at Mackenzie Presbyterian University in São Paulo, Brazil. Now I'm taking my MSI
+                    at California Trinity University in Los Angeles, USA.</p>
+                <p>Throughout my life, I was the responsible of organizing various activities such as developing applications,
+                    websites and games. My passion is programming <i class="fas fa-keyboard" id="keyboardloop"></i>. </p>
+                <p>I've worked at one of the world's largest technology companies,
+                    <a href="https://www.microsoft.com/">
+                        <i class="fab fa-microsoft"></i>
+                        <strong>Microsoft</strong>
+                    </a>, where I had the opportunity to learn the best practices in software development, organization and
+                    planning of the execution of my activities.
+                </p>
+                <p>Do you wanna know more about me? Click <a href="moreInfo.html">here</a>!</p>
+                <hr style="border: 1pt solid #cecece;">
 
-					<p>I work exclusively as a programmer and systems analyst since 2014. All my efforts and activities are directed for the
-						evolution, success and excellence of the people who search for my work.</p>
-					<p>I got my associate degree in Technology and Analysis and Development of Systems and my bachelor’s degree in Systems
-						Information at Mackenzie Presbyterian University in São Paulo, Brazil. Now I'm taking my MSI at California Trinity University in Los Angeles, USA.</p>
-					<p>Throughout my life, I was the responsible of organizing various activities such as developing applications, websites
-						and games. My passion is programming <i class="fas fa-keyboard" id="keyboardloop"></i>. </p>
-					<p>I've worked at one of the world's largest technology companies,
-						<a href="https://www.microsoft.com/">
-							<i class="fab fa-microsoft"></i>
-							<strong>Microsoft</strong>
-						</a>, where I had the opportunity to learn the best practices in software development, organization and planning of the
-						execution of my activities.
-					</p>
-					<p>Do you wanna know more about me? Click <a href="moreInfo.html">here</a>!</p>
-					<hr/ style="border: 1pt solid #cecece;">
-			</div>
+            </div>
 
-			<div class="col-sm-2">
-			</div>
+            <div class="col-md-2">
+            </div>
 
-		</div>
+        </div>
+    </div>
 
-		<div class="col-md-2">
-		</div>
+    <div id="aboutMe" class="container-fluid">
+        <div class="row" style="margin-top: 20px;">
 
-	</div>
+            <div class="col-md-2">
+            </div>
 
-	<div class="row" align="center">
-		<div class="col-md-4"></div>
-		<div class="col-md-4">
-			<p>© Pedro Henrique de Miranda Arthur, 2018</p>
-			<p>
-				<a href="about.html">About this Website</a>
-			</p>
-		</div>
-		<div class="col-md-4"></div>
-	</div>
+            <div class="col-md-8">
+                <div class="row" style="margin-top: 60px;">
+                    <div class="col-md-12">
+                        <h2>Pedro Henrique de Miranda Arthur</h2>
+                        <hr style="border: 1pt solid #dbe3f6;">
+                        <div id="infos">
+                            <p>Los Angeles, California</p>
+                            <p>
+                                <abbr title="Phone">P:</abbr> (310) 402-1702</p>
+                            <p>
+                                <a href="mailto:pedrohma95@gmail.com">pedrohma95@gmail.com</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div>
+                            <h2>Degrees
+                                <i class="fa fa-graduation-cap" aria-hidden="true" style="float:right"></i>
+                            </h2>
+                            <hr style="border: 1pt solid #dbe3f6;">
+                        </div>
+
+                        <div id="graduation" style="text-align: left;">
+                            <h4>
+                                <img src="img/ctu.png" alt="CTU" class="mackenzie" /> California Trinity University, Los
+                                Angeles, CA, Present</h4>
+                            <em>Masters in Systems Information</em>
+                            <h4>
+                                <h4>
+                                    <img src="img/mackenzie.png" alt="mackenzie" class="mackenzie" /> Mackenzie Presbiterian
+                                    University, São Paulo, SP, 2016</h4>
+                                <em>Systems Information</em>
+                                <h4>
+                                    <img src="img/mackenzie.png" alt="mackenzie" class="mackenzie" /> Mackenzie Presbiterian
+                                    University, São Paulo, SP, 2015</h4>
+                                <em>Technology in Analysis and Development of Systems</em>
+                                <hr/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" id="rowProfessional">
+                    <div class="col-md-12">
+                        <div>
+                            <h2>Professional Employment
+                                <i class="fa fa-desktop" aria-hidden="true" style="float:right"></i>
+                            </h2>
+                            <hr style="border: 1pt solid #dbe3f6;">
+                        </div>
+
+                        <div id="professional">
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <p>
+                                        <img src="img/microsoft-logo.png" alt="microsoft" class="microsoft" />
+                                    </p>
+                                </div>
+                                <div class="col-md-11">
+                                    <div id="work-title">
+                                        <h4>Consultant Internship
+                                            <small>
+                                                <em>Sep 2015 – Dez 2016</em>
+                                            </small>
+                                        </h4>
+                                    </div>
+                                    <p></p>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <strong>Rio 2016 Olypmic and Paralympic Games</strong>
+                                        </div>
+                                        <div class="col-sm-9">Contributed to get system requirement with the Analysis team,
+                                            went to non-face-to-face meetings with the customer, and solved the customer's
+                                            issues. Developed an application using Visual Studio as IDE, HTML5, CSS, Bootstrap,
+                                            jQuery, JavaScript and C#.
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <strong>IoT Smarthouse</strong>
+                                        </div>
+                                        <div class="col-sm-9">Managed a project with the development of a prototype of an
+                                            intelligent house, where the rooms of the house have sensors (such as luminosity,
+                                            for example), and are controlled through a universal application (Mobile, Tablet,
+                                            Desktop, Xbox). All data is stored on the Microsoft Azure cloud computing platform
+                                            and replicated to a Stream Analytics where it sends the data to a Power BI which
+                                            improved analysis of data. From this we can do various types of analysis, such
+                                            as how much energy is consumed, and so on.
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <strong>Ack Tool</strong>
+                                        </div>
+                                        <div class="col-sm-9">Developed an Ack Tool for the Compliance team, under the architecture
+                                            of SharePoint, where they can collect signatures of the data Managers and Leads
+                                            of the area. We use SharePoint services together with InfoPath to create forms.
+                                        </div>
+                                    </div>
+                                    <br/>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <p>
+                                        <img src="img/brq-logo.png" alt="brq" class="microsoft" />
+                                    </p>
+                                </div>
+                                <div class="col-md-11">
+                                    <div id="work-title">
+                                        <h4>Programmer Internship
+                                            <small>
+                                                <em>May 2014 – May 2015</em>
+                                            </small>
+                                        </h4>
+                                    </div>
+                                    <p></p>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <strong>Itaú Bank</strong>
+                                        </div>
+                                        <div class="col-sm-9">Contributed with the upgrade of the application server that
+                                            was a WebLogic 8 to a WebLogic 11. Worked with the documentation of the same,
+                                            which used Vb.Net as its programming language, all types of diagram were developed.
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <strong>Cielo</strong>
+                                        </div>
+                                        <div class="col-sm-9">Developed a system that allows Cielo users to make their own
+                                            queries. This software allows sellers through this application to consult their
+                                            sales, amounts receivable, their outstanding finances, etc. all in one place.
+                                            We used Java EE development, Spring MVC, JSF, Primefaces, Thymeleaf, Bootstrap,
+                                            WebLogic, WebSphere and IBM Portal.</div>
+                                    </div>
+                                    <br/>
+                                </div>
+                            </div>
+                            <hr/>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row" id="rowKnowledge">
+                    <div class="col-md-12">
+                        <div>
+                            <h2 id="txtKnwolegde">Technical Knowledge
+                                <i class="fas fa-chart-bar" aria-hidden="true" style="float:right"></i>
+                            </h2>
+                            <hr style="border: 1pt solid #dbe3f6;">
+                        </div>
+
+                        <div id="knowledge">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <h4 id="titles">
+                                        <i class="fa fa-mobile" aria-hidden="true"></i> Mobile Development</h4>
+                                    <p>Swift</p>
+                                    <div class="progress">
+                                        <div id="swift" class="progress-bar bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
+                                            style="width: 85%">
+                                        </div>
+                                    </div>
+                                    <p>Android</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <p>Xamarin</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                        </div>
+                                    </div>
+                                    <br/>
+
+                                    <h4 id="titles">
+                                        <i class="fa fa-cloud" aria-hidden="true"></i> Cloud</h4>
+                                    <p>Azure</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                        </div>
+                                    </div>
+                                    <p>Heroku</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                        </div>
+                                    </div>
+                                    <br/>
+
+                                    <h4 id="titles">
+                                        <i class="fa fa-database" aria-hidden="true"></i> Database</h4>
+                                    <p>MySQL</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <p>SQL Server</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <p>FireBase</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <h4 id="titles">
+                                        <i class="fa fa-laptop" aria-hidden="true"></i> Web Development</h4>
+                                    <p>HTML 5</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                                        </div>
+                                    </div>
+                                    <p>Javascript</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <p>Jquery</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <p>CSS</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                                        </div>
+                                    </div>
+                                    <p>Bootstrap</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <p>Ajax</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <p>Typescript</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                        </div>
+                                    </div>
+                                    <p>Angular</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        </div>
+                                    </div>
+                                    <p>Node.js</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                                        </div>
+                                    </div>
+                                    <p>Ionic</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:5085%">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <h4 id="titles">
+                                        <i class="fas fa-pencil-alt" aria-hidden="true"></i> Office</h4>
+                                    <p>Word</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-d" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <p>PowerPoint</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-d" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <p>Excel</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-d" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <p>OneNote</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-d" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <p>Outlook</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-d" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <h4 id="titles">
+                                        <i class="fa fa-language" aria-hidden="true"></i> Languages</h4>
+                                    <p>Portuguese (Native)</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-l" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                        </div>
+                                    </div>
+                                    <p>English</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-l" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <p>Spanish</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-l" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        </div>
+                                    </div>
+                                    <p>Tagalog</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-l" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                        </div>
+                                    </div>
+                                    <p>Persian</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-l" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 id="titles">
+                                        <i class="fas fa-keyboard" id="keyboardloop"></i> Programming Languages</h4>
+                                    <p>C#</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-pl" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                                        </div>
+                                    </div>
+                                    <p>Java</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-pl" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                                        </div>
+                                    </div>
+                                    <p>PHP</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-pl" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                        </div>
+                                    </div>
+                                    <p>Go</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-pl" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                                        </div>
+                                    </div>
+                                    <p>Python</p>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-pl" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" id="rowCertifications">
+                    <div class="col-md-12">
+                        <h2>Certifications
+                            <i class="fa fa-certificate" aria-hidden="true" style="float:right"></i>
+                        </h2>
+                        <hr style="border: 1pt solid #dbe3f6;">
+
+                        <div id="certifications">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>
+                                        <i class="fa fa-star" aria-hidden="true" style="color:#e5ad00;"></i>
+                                        <a href="https://www.youracclaim.com/badges/cdd417ad-9deb-48d0-bd5d-af76bf151675/linked_in?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_details_shares%3BoYqf5TzwQumYTTWgUQqB1Q%3D%3D">MTA:
+                                            Database Fundamentals - Certified 2016</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>
+                                        <i class="fa fa-star" aria-hidden="true" style="color:#e5ad00;"></i>
+                                        <a href="https://www.youracclaim.com/badges/cdd417ad-9deb-48d0-bd5d-af76bf151675/linked_in?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_details_shares%3BoYqf5TzwQumYTTWgUQqB1Q%3D%3D">MTA:
+                                            Software Development Fundamentals - Certified 2016</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <hr/>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row" id="rowHonor">
+                    <div class="col-md-12">
+                        <div>
+                            <h2>Honor & Award
+                                <i class="fa fa-trophy" aria-hidden="true" style="float:right"></i>
+                            </h2>
+                            <hr style="border: 1pt solid #dbe3f6;">
+                        </div>
+
+                        <div id="honor">
+                            <h4>
+                                <i class="fa fa-trophy" aria-hidden="true"></i>
+                                <small> HCI International Conference 2017 Vancouver (Canada)</small>
+                            </h4>
+                            <p>Award on the research paper
+                                <a target="_blank" href="https://docs.google.com/document/d/1oojRyUK3hA6TM9HPRcia7ZC0Cm-l41o8tUawwaLOdz0/edit?usp=sharing">“Framework
+                                    based on gesture interaction for Educational Games for Learning Assistance in the Reading
+                                    Process for Children in the Literacy Period”</a>.</p>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" id="rowWork">
+                    <div class="col-md-12">
+                        <div>
+                            <h2>Work
+                                <i class="fa fa-rocket" aria-hidden="true" style="float:right"></i>
+                            </h2>
+                            <hr style="border: 1pt solid #dbe3f6;">
+                        </div>
+                        <div id="work">
+                            <h4>
+                                <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                <small>
+                                    <a target="_blank" href="https://node-chat-pedro.herokuapp.com/">Node Chat</a>
+                                </small>
+                            </h4>
+                            <p>This is an application developed using Node.js, MongoDB, Socket.io and Express.</p>
+                            <p>
+                                <img src="img/node-chat/1.png" height="200" width="350" />
+                                <img src="img/node-chat/2.png" height="200" width="120" />
+                            </p>
+                            <p>You can find the source code
+                                <a target="_blank" href="https://github.com/pedrohma95/nodeChat">here</a>.</p>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6" align="center" id="down">
+                        <h3><i class="fas fa-arrow-down"></i> Download my resume here <i class="fas fa-arrow-down"></i></h3>
+                        <a class="btn btn-success" href="files/ResumePedro2018.pdf"><i class="fa fa-download" aria-hidden="true"></i>
+                            Download</a></div>
+                    <div class="col-md-3"></div>
+                </div>
+
+                <div class="col-md-2">
+                </div>
+
+            </div>
+
+            <div class="col-md-2">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="contact" class="container-fluid">
+        <div class="row" style="margin-top: 60px;">
+
+            <div class="col-md-2">
+            </div>
+
+            <div class="col-md-8" align="center">
+                <p>Are you interested in develop a project or wanna talk about an idea?</p>
+                <p>You can get in touch with or find me at:</p>
+
+                <p class="contact">
+                    <a href="mailto:pedrohma95@gmail.com">
+                        <img src="img/gmail.png" alt="gmail" class="img-circle social">
+                        <p> pedrohma95@gmail</p>
+                    </a>
+                </p>
+
+                <p class="contact">
+                    <a href="https://github.com/pedrohma95/">
+                        <img src="img/github.png" alt="github" class="img-circle social">
+                        <p> GitHub</p>
+                    </a>
+                </p>
+
+                <p class="contact">
+                    <a href="https://www.linkedin.com/in/peedromiranda/">
+                        <img src="img/linkedin.png" alt="likedin" class="img-circle social">
+                        <p> Linkedin </p>
+                    </a>
+                </p>
+
+                <p class="contact">
+                    <a href="https://www.instagram.com/peedromiranda/">
+                        <img src="img/instagram.png" alt="instagram" class="img-circle social">
+                        <p> Instagram </p>
+                    </a>
+                </p>
+
+                <p class="contact">
+                    <img src="img/facebook.png" alt="facebook" class="img-circle social">
+                    <p>
+                        <a href="https://www.facebook.com/peedromiranda">Facebook</a>
+                    </p>
+                </p>
+
+                <hr style="border: 1pt solid #cecece;">
+            </div>
+
+            <div class="col-md-2">
+            </div>
+
+        </div>
+
+        <div class="row" align="center" id="footer">
+            <div class="col-md-12">
+                <p>© Pedro Henrique de Miranda Arthur, 2018</p>
+            </div>
+        </div>
+    </div>
 
 </body>
-
-
 
 </html>
