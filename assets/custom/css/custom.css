@@ -49,8 +49,8 @@ h5{
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-	height: 30px;
-	width: 30px;
+	height: 50px;
+	width: 50px;
 }
 
 .social:hover{
@@ -229,6 +229,11 @@ h5{
 	animation: computer-color-change 1s infinite;
 }
 
+.app-img{
+	height:200px;
+	width: 350px;
+}
+
 @-webkit-keyframes computer-color-change {
 	0% { color: #b4b4b4; }
 	50% { color: #bd5652; }
@@ -356,6 +361,10 @@ h5{
 	#currentlyStudying{
 		text-align: center;
 	}
+	.app-img{
+		height: 150px;
+		width: 300px;
+	}
 }
 
 /* Custom, iPhone Retina */ 
@@ -395,5 +404,9 @@ h5{
 	}
 	#currentlyStudying{
 		text-align: center;
+	}
+	.app-img{
+		height: 150px;
+		width: 300px;
 	}
 }
