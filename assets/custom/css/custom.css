@@ -234,6 +234,15 @@ h5{
 	width: 350px;
 }
 
+#work{
+	display: table;
+	margin: 0 auto;
+}
+
+#work h4{
+	text-align: center;
+}
+
 @-webkit-keyframes computer-color-change {
 	0% { color: #b4b4b4; }
 	50% { color: #bd5652; }
