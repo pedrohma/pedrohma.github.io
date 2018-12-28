@@ -56,6 +56,10 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
         </li>
+        <li class="nav-item" ng-switch="lang">
+          <a class="nav-link" ng-switch-when="en-US" href="#" ng-click="changeLang('br')"><img src="img/br-flag.png" height="30px" width="auto"></a>
+          <a class="nav-link" ng-switch-when="pt-BR" href="#" ng-click="changeLang('en')"><img src="img/usa-flag.png" height="30px" width="auto"></a>
+        </li>
       </ul>
     </div>
   </nav>
