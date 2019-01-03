@@ -155,6 +155,7 @@ app.controller('main', function ($scope) {
                 $scope.site = locale.en;
                 break;
         }
+        $('.navbar-collapse').collapse('hide');
     }
 
     $scope.ChangeLang($scope.lang);
