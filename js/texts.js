@@ -9,7 +9,7 @@ const locale = {
         },
         section: {
             about: {
-                first: "I've worked exclusively as a programmer and systems analyst since 2014. All my efforts are directed towards the development, success and excellence of my clients.",
+                first: "I have worked exclusively as a programmer and systems analyst since 2014. All my efforts are directed towards the development, success and excellence of my clients.",
                 second: "I earned my associate degree in Technology and Analysis and Development of Systems and my bachelor’s degree in Systems Information at Mackenzie Presbyterian University in São Paulo, Brazil. Now I'm taking my MSI at California Trinity University in Los Angeles, USA.",
                 third: "Throughout my life, I've been the responsible of organizing various activities such as developing applications, websites and games. My passion and purpose is programming.",
                 fourth: "Working at one of the world's largest technology companies, Microsoft , taught me best practices in software development, as well organization, planning, and professionalism."
@@ -61,6 +61,17 @@ const locale = {
                     inst: "California Trinity University",
                     date: "Spring 2018 - Present"
                 }
+            },
+            skills:{
+                ver: "Versioning Tools",
+                pl: "Programming Languages",
+                wd: "Web Development",
+                gd: "Game Development",
+                os: "Operational Systems",
+                wf: "Workflow",
+                st: "Mobile-First, Responsive Design",
+                cd: "Cross Browser Testing & Debugging",
+                cf: "Cross Functional Teams"
             },
             aw:{
                 text: "Award on the research paper "
@@ -128,6 +139,17 @@ const locale = {
                     inst: "California Trinity University",
                     date: "January 2017 - Cursando"
                 }
+            },
+            skills:{
+                ver: "Ferramentas de Versionamento",
+                pl: "Linguagens de Programação",
+                wd: "Desenvolvimento Web",
+                gd: "Desenvolvimento de Jogos",
+                os: "Sistemas Operacionais",
+                wf: "Fluxo de Trabalho",
+                st: "Primeiro Design móvel & responsivo",
+                cd: "Testes & Debuggin em browsers diferentes",
+                cf: "Equipes multifuncionais"
             },
             aw:{
                 text: "Prêmio pela pesquisa desenvolvida "
