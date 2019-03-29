@@ -191,6 +191,16 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
 
-.flag{
-  cursor: pointer;
+.flag-img:hover img{
+  cursor: pointer !important;
+  pointer-events: auto !important;
+}
+
+@media (max-width: 500px) {
+  body{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
 }

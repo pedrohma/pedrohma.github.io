@@ -10,7 +10,7 @@
   <meta name="author" content="Pedro Henrique de Miranda Arthur">
   <link rel="manifest" href="/manifest.webmanifest">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+
   <title>PHMA</title>
 
   <!-- Bootstrap core CSS -->
@@ -20,6 +20,8 @@
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="assets/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <link href="css/icons.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
@@ -60,8 +62,10 @@
           <a class="nav-link js-scroll-trigger" href="#awards">{{site.menu.fifth}}</a>
         </li>
         <li class="nav-item" ng-switch="lang">
-          <a class="nav-link flag" ng-switch-when="en-US" ng-click="ChangeLang('br')"><img src="img/br-flag.png" height="30px" width="auto"></a>
-          <a class="nav-link flag" ng-switch-when="pt-BR" ng-click="ChangeLang('en')"><img src="img/usa-flag.png" height="30px" width="auto"></a>
+          <a class="nav-link flag js-scroll-trigger" ng-switch-when="en-US" ng-click="ChangeLang('br')"><img
+              src="img/br-flag.png" class="flag-img" height="30px" width="auto"></a>
+          <a class="nav-link flag js-scroll-trigger" ng-switch-when="pt-BR" ng-click="ChangeLang('en')"><img
+              src="img/usa-flag.png" class="flag-img" height="30px" width="auto"></a>
         </li>
       </ul>
     </div>
@@ -71,20 +75,20 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
       <div class="my-auto">
-        <h1 class="mb-0">Pedro Henrique
-          <span class="text-primary">Arthur</span>
+        <h1 class="mb-0">Pedro Henrique Arthur
         </h1>
-        <div class="subheading mb-5">Full Stack Developer · Los Angeles, CA 90015 · <a href="tel:310-402-1702">+1 (310) 402-1702</a> ·
-          <a href="mailto:pedrohma95@gmail.com">pedrohma95@gmail.com</a>
+        <div class="subheading mb-5">Full Stack Developer · Los Angeles, CA 90015 · <a href="tel:310-402-1702">+1 (310)
+            402-1702</a> ·
+          <a id="testing" href="mailto:pedrohma95@gmail.com">pedrohma95@gmail.com</a>
         </div>
         <p class="lead mb-5">
           {{site.section.about.first}}
         </p>
         <p class="lead mb-5">
-            {{site.section.about.second}}
+          {{site.section.about.second}}
         </p>
         <p class="lead mb-5">
-            {{site.section.about.third}}
+          {{site.section.about.third}}
         </p>
         <p class="lead mb-5">
           {{site.section.about.fourth}}
@@ -110,6 +114,7 @@
         <h2 class="mb-5">{{site.menu.second}}</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/439px-Microsoft_logo.svg.png" class="work-img mb-0" />
           <div class="resume-content mr-auto">
             <h3 class="mb-0">{{site.section.exp.microsoft.title}}</h3>
             <div class="subheading mb-3 text-primary">Microsoft</div>
@@ -127,6 +132,7 @@
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <img src="http://www.brq.com/img/brq-digital-solutions.png" class="work-img mb-0" />
           <div class="resume-content mr-auto">
             <h3 class="mb-0">{{site.section.exp.brq.title}}</h3>
             <div class="subheading mb-3 text-primary">BRQ IT Services</div>
@@ -151,6 +157,7 @@
         <h2 class="mb-5">{{site.menu.third}}</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <img src="https://www.catu.edu/wp-content/uploads/2014/07/ctu-logo.png" class="school-img mb-0" />
           <div class="resume-content mr-auto">
             <h3 class="mb-0">{{site.section.edu.mba.inst}}</h3>
             <div class="subheading mb-3">{{site.section.edu.mba.title}}</div>
@@ -161,6 +168,7 @@
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row mb-3">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/214px-Mackenzie_M.svg.png" class="school-img mb-0" />
           <div class="resume-content mr-auto">
             <h3 class="mb-0">{{site.section.edu.bach.inst}}</h3>
             <div class="subheading mb-3">{{site.section.edu.bach.title}}</div>
@@ -171,6 +179,7 @@
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/214px-Mackenzie_M.svg.png" class="school-img mb-0" />
           <div class="resume-content mr-auto">
             <h3 class="mb-0">{{site.section.edu.ass.inst}}</h3>
             <div class="subheading mb-3">{{site.section.edu.ass.title}}</div>
@@ -192,111 +201,123 @@
         <div class="subheading mb-3">{{site.section.skills.ver}}</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-bitbucket"></i>
+            <span><img class="dev-img" src="https://www.ibm.com/cloud/garage/images/tools_icons/bitbucket.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-github"></i>
+            <span><img class="dev-img" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"></span>
           </li>
         </ul>
 
         <div class="subheading mb-3">{{site.section.skills.pl}}</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-java"></i>
+            <span><img class="dev-img" src="https://classes.engineering.wustl.edu/cse231/core/images/2/26/Java.png"></span>
           </li>
           <li class="list-inline-item">
-            <span><i>Go</i></span>
+            <span><img class="dev-img" src="https://png.pngtree.com/svg/20170910/4eb1a2d59e.svg"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-python"></i>
+            <span><img class="dev-img" src="http://i.imgur.com/DuUhtB4.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-php"></i>
+            <span><img class="dev-img" src="https://logodownload.org/wp-content/uploads/2016/10/php-logo.png"></span>
           </li>
           <li class="list-inline-item">
-            <span><i>C#</i></span>
+            <span><img class="dev-img" src="http://devstickers.com/assets/img/pro/2p4i.png"></span>
           </li>
         </ul>
 
         <div class="subheading mb-3">{{site.section.skills.wd}}</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
+            <span><img class="dev-img" src="https://logodownload.org/wp-content/uploads/2016/10/html5-logo-8.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
+            <span><img class="dev-img" src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
+            <span><img class="dev-img" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
+            <span><img class="dev-img" src="https://angular.io/assets/images/logos/angular/angular.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
+            <span><img class="dev-img" src="http://pluspng.com/img-png/bootstrap-logo-png-logo-228.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
+            <span><img class="dev-img" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-less"></i>
+            <span><img class="dev-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
+            <span><img class="dev-img" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
+            <span><img class="dev-img" src="http://www.pngall.com/wp-content/uploads/2016/05/WordPress-Logo-PNG-HD.png"></span>
+          </li>
+          <li class="list-inline-item">
+            <span><img class="dev-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1280px-Npm-logo.svg.png"></span>
           </li>
         </ul>
 
         <div class="subheading mb-3">API's</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-usps"></i>
+            <span><img class="dev-img" src="https://seeklogo.com/images/U/usps-logo-5CC9D109DF-seeklogo.com.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-ups"></i>
+            <span><img class="dev-img" src="https://cdn.freebiesupply.com/logos/large/2x/ups-logo-png-transparent.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-fedex"></i>
+            <span><img class="dev-img" src="https://nwas.org/wp-content/uploads/2011/07/FedEx-Logo-PNG-Transparent.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-ebay"></i>
+            <span><img class="dev-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/1280px-EBay_logo.svg.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-amazon"></i>
+            <span><img class="dev-img" src="https://pngimg.com/uploads/amazon/amazon_PNG27.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-google"></i>
+            <span><img class="dev-img" src="http://hawkingsmedia.com/wp-content/uploads/2014/11/unnamed-2.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-facebook-square"></i>
+            <span><img class="dev-img" src="https://upload.wikimedia.org/wikipedia/en/0/00/Newegg_Logo_updated.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-twitter-square"></i>
+            <span><img class="dev-img" src="https://banner2.kisspng.com/20180412/twe/kisspng-groupon-discounts-and-allowances-computer-icons-co-g-5acffa4279f839.5306631115235794584996.jpg"></span>
+          </li>
+          <li class="list-inline-item">
+            <span><img class="dev-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png"></span>
+          </li>
+          <li class="list-inline-item">
+            <span><img class="dev-img" src="https://i1.wp.com/marsfallpodcast.com/wp-content/uploads/2017/09/Twitter-Download-PNG.png?ssl=1"></span>
+          </li>
+          <li class="list-inline-item">
+            <span><img class="dev-img" src="http://pngimg.com/uploads/google/google_PNG19635.png"></span>
           </li>
         </ul>
 
         <div class="subheading mb-3">{{site.section.skills.gd}}</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-xbox"></i>
+            <span><img class="dev-img" src="http://pluspng.com/img-png/xbox-png-xbox-logo-png-1220.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-android"></i>
+            <span><img class="dev-img" src="https://cdn.freebiesupply.com/logos/large/2x/android-logo-png-transparent.png"></span>
           </li>
         </ul>
 
         <div class="subheading mb-3">{{site.section.skills.os}}</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-microsoft"></i>
+            <span><img class="dev-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/439px-Microsoft_logo.svg.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-apple"></i>
+            <span><img class="dev-img" src="https://image.flaticon.com/icons/png/512/23/23656.png"></span>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-linux"></i>
+            <span><img class="dev-img" src="http://pngimg.com/uploads/linux/linux_PNG1.png"></span>
           </li>
         </ul>
 
@@ -324,7 +345,8 @@
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            {{site.section.aw.text}} “<a href="https://docs.google.com/document/d/1oojRyUK3hA6TM9HPRcia7ZC0Cm-l41o8tUawwaLOdz0"
+            {{site.section.aw.text}} “<a
+              href="https://docs.google.com/document/d/1oojRyUK3hA6TM9HPRcia7ZC0Cm-l41o8tUawwaLOdz0"
               target="_blank">Framework based on gesture interaction for Educational Games for Learning Assistance in
               the Reading Process for Children in the Literacy Period</a>”.</li>
           <li>
@@ -340,10 +362,11 @@
     </section>
 
     <footer class="resume-section p-3 p-lg-5 d-flex flex-column">
-        <div class="my-auto text-center">
-            <h4 class="mb-5">PHMA - {{ currentYear | date:'yyyy'}}</h4>
-            <p>Thanks <a href="https://github.com/BlackrockDigital" target="_blank">Blackrock Digital</a> for the template.</p>
-        </div>
+      <div class="my-auto text-center">
+        <h4 class="mb-5">PHMA - {{ currentYear | date:'yyyy'}} <i class="far fa-copyright"></i></h4>
+        <p>Thanks <a href="https://github.com/BlackrockDigital" target="_blank">Blackrock Digital</a> for the template.
+        </p>
+      </div>
     </footer>
 
 
@@ -364,6 +387,7 @@
   <script src="js/page.js"></script>
 
   <script src="js/texts.js"></script>
+  <script src="js/gradient.js"></script>
 
 </body>
 

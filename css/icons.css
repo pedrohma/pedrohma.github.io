@@ -1,0 +1,51 @@
+.dev-img {
+    width: auto !important;
+    height: 50px !important;
+}
+
+.school-img{
+    width: auto !important;
+    height: 50px !important;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.work-img{
+    width: auto !important;
+    height: 50px !important;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.fa-copyright{
+    font-size: 10pt;
+}
+
+@media all and (max-width: 768px) {
+    .work-img{
+        width: 50px !important;
+        height: auto !important;
+        margin-right: 10px;
+        margin-top: 5px;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+
+    .school-img{
+        width: 50px !important;
+        height: auto !important;
+        margin-right: 10px;
+        margin-top: 5px;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+
+    h1, h2, h3, p, img, .text-md-right, .subheading, .social-icons{
+        text-align: center !important;
+    }
+
+    .subheading ul li span img{
+        display: block !important;
+        margin: 0 auto !important;
+    }
+}
