@@ -49,3 +49,19 @@
         margin: 0 auto !important;
     }
 }
+
+.fa-phone{
+    color: #6688cc !important;
+}
+
+.fa-phone:hover{
+    color: #516ca3 !important;
+}
+
+.fa-sms, .fa-whatsapp-square{
+    color: #88cc66 !important;
+}
+
+.fa-sms:hover, .fa-whatsapp-square:hover{
+    color: #6ca351 !important;
+}
