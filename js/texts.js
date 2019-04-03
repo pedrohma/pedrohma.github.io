@@ -54,7 +54,7 @@ const locale = {
                 bach: {
                     title: "BACHELOR'S DEGREE IN SYSTEMS INFORMATION",
                     inst: "Universidade Presbiteriana Mackenzie",
-                    date: "January 2013 - Dez 2016"
+                    date: "January 2013 - December 2016"
                 },
                 mba: {
                     title: "MASTERS IN SYSTEMS INFORMATION",
@@ -137,7 +137,7 @@ const locale = {
                 mba: {
                     title: "Mestrado em Sistemas da Informação",
                     inst: "California Trinity University",
-                    date: "January 2017 - Cursando"
+                    date: "Março 2018 - Cursando"
                 }
             },
             skills:{
@@ -148,7 +148,7 @@ const locale = {
                 os: "Sistemas Operacionais",
                 wf: "Fluxo de Trabalho",
                 st: "Primeiro Design móvel & responsivo",
-                cd: "Testes & Debuggin em browsers diferentes",
+                cd: "Testes & Debugging em diferentes tipos de browsers",
                 cf: "Equipes multifuncionais"
             },
             aw:{

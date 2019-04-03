@@ -21,6 +21,10 @@
     font-size: 10pt;
 }
 
+#social-icons-mob{
+    display: none;
+}
+
 @media all and (max-width: 768px) {
     .work-img{
         width: 50px !important;
@@ -48,6 +52,52 @@
         display: block !important;
         margin: 0 auto !important;
     }
+
+    .mob{
+        font-size: 16pt;
+        cursor: pointer !important;
+    }
+
+    .fa-whatsapp-square.mob{
+        color: white !important;
+    }
+
+    .fa-whatsapp-square.mob:hover{
+        color: #aba3a3 !important;
+    }
+
+    .fa-envelope.mob{
+        color: white !important;
+    }
+
+    .fa-envelope.mob:hover{
+        color: #aba3a3 !important;
+    }
+
+    .fa-sms.mob{
+        color: white !important;
+    }
+
+    .fa-sms.mob:hover{
+        color: #aba3a3 !important;
+    }
+
+    .fa-phone.mob{
+        color: white !important;
+    }
+
+    .fa-phone.mob:hover{
+        color: #aba3a3 !important;
+    }
+
+    #social-icons{
+        display: none;
+    }
+
+    #social-icons-mob{
+        display: block;
+    }
+
 }
 
 .fa-phone{
