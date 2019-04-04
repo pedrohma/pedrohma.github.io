@@ -60,6 +60,8 @@
 
     .fa-whatsapp-square.mob{
         color: white !important;
+        margin-left: 5px;
+        margin-right: 3px;
     }
 
     .fa-whatsapp-square.mob:hover{
@@ -68,6 +70,8 @@
 
     .fa-envelope.mob{
         color: white !important;
+        margin-left: 5px;
+        margin-right: 3px;
     }
 
     .fa-envelope.mob:hover{
@@ -76,6 +80,8 @@
 
     .fa-sms.mob{
         color: white !important;
+        margin-left: 5px;
+        margin-right: 3px;
     }
 
     .fa-sms.mob:hover{
@@ -84,6 +90,8 @@
 
     .fa-phone.mob{
         color: white !important;
+        margin-right: 3px;
+        margin-left: 5px;
     }
 
     .fa-phone.mob:hover{
@@ -95,7 +103,8 @@
     }
 
     #social-icons-mob{
-        display: block;
+        display: inline-flex;
+        margin-left: -30px;
     }
 
 }
