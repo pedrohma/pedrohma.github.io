@@ -3844,6 +3844,7 @@ readers do not read off random characters that represent icons */
 
 .fa-trophy:before {
   content: "\f091"; }
+  
 
 .fa-truck:before {
   content: "\f0d1"; }

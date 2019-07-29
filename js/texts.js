@@ -74,7 +74,8 @@ const locale = {
                 cf: "Cross Functional Teams"
             },
             aw:{
-                text: "Award on the research paper "
+                text: "Award on the research paper ",
+                vp: "Vice President of the student committee at "
             }
         }
     },
@@ -152,8 +153,9 @@ const locale = {
                 cf: "Equipes multifuncionais"
             },
             aw:{
-                text: "Prêmio pela pesquisa desenvolvida "
+                text: "Prêmio pela pesquisa desenvolvida ",
+                vp: "Vice Presidente do comitê de estudantes da "
             }
         }
     }
-}
+};

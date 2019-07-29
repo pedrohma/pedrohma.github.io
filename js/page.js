@@ -18,7 +18,7 @@ app.controller('main', function ($scope) {
                 break;
         }
         $('.navbar-collapse').collapse('hide');
-    }
+    };
 
     $scope.ChangeLang($scope.lang);
 
