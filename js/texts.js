@@ -57,9 +57,9 @@ const locale = {
                     date: "January 2013 - December 2016"
                 },
                 mba: {
-                    title: "MASTERS IN SYSTEMS INFORMATION",
+                    title: "MBA MANAGEMENT INFORMATION SYSTEMS CONCENTRATION",
                     inst: "California Trinity University",
-                    date: "Spring 2018 - Present"
+                    date: "Spring 2018 - Winter 2019"
                 }
             },
             skills:{
@@ -136,9 +136,9 @@ const locale = {
                     date: "Janeiro 2013 - Dezembro 2016"
                 },
                 mba: {
-                    title: "Mestrado em Sistemas da Informação",
+                    title: "MBA com foco em Sistemas da Informação",
                     inst: "California Trinity University",
-                    date: "Março 2018 - Cursando"
+                    date: "Março 2018 - Dezembro 2019"
                 }
             },
             skills:{
