@@ -1,8 +1,20 @@
 {
-    "name": "pedrohma95",
-    "short_name": "pedrohma95",
-    "start_url": "https://pedrohma95.github.io/",
+    "name": "pedrohma",
+    "short_name": "pedrohma",
+    "start_url": "https://pedrohma.com/",
     "display": "standalone",
     "background_color": "#fff",
-    "description": "Pedro Henrique de Miranda Arthur. 2018"
+    "description": "Pedro Henrique de Miranda Arthur. 2020",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
   }
