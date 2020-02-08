@@ -1,0 +1,96 @@
+html, body {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.header {
+    color: #fff;
+    text-align: center;
+    background-color: #556270;
+    background-image: linear-gradient(120deg, #c0392b, #8e44ad);
+    padding: 3rem 4rem;
+}
+
+.header h1 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+
+.header h4 {
+    margin-bottom: 1rem;
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 42em) {
+    .header {
+        padding: 2rem 1rem;
+    }
+    .content {
+        padding: 2rem 4rem;
+        font-size: 1.1rem;
+    }
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.colorado {
+    color: #c0392b;
+}
+
+.content {
+    max-width: 64rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.content h3, p {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    padding: 0 1rem;
+    margin-left: 0;
+    color: #819198;
+    border-left: 0.3rem solid #dce6f0;
+}
+
+blockquote:hover {
+    border-left: 0.3rem solid #8e44ad;
+}
+
+.site-footer {
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: solid 1px #dce6f0;
+    text-align: center;
+    color: #819198;
+}
+
+a:not(.btn) {
+    color: #8e44ad !important;
+}
+
+.dev-img {
+    height: 50px;
+    width: auto;
+    padding: 5px 0px 10px 10px;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
+
+img {
+    transition: transform .3s;
+}
