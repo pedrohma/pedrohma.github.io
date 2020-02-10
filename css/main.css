@@ -1,13 +1,22 @@
 html, body {
     max-height: 100%;
     max-width: 100%;
+    color: #fff;
+    font-family: 'Ubuntu Mono', monospace;
+    text-shadow: 0 0 5px #C8C8C8;
+    background-color: black;
+    background-image: radial-gradient( rgba(0, 150, 0, 0.75), black 100%);
+}
+
+::selection {
+    background: #0080FF;
+    color: white;
+    text-shadow: none;
 }
 
 .header {
     color: #fff;
     text-align: center;
-    background-color: #556270;
-    background-image: linear-gradient(120deg, #c0392b, #8e44ad);
     padding: 3rem 4rem;
 }
 
@@ -20,24 +29,6 @@ html, body {
     margin-bottom: 1rem;
     font-weight: normal;
     opacity: 0.7;
-}
-
-@media screen and (max-width: 42em) {
-    .header {
-        padding: 2rem 1rem;
-    }
-    .content {
-        padding: 2rem 4rem;
-        font-size: 1.1rem;
-    }
-}
-
-body {
-    background-color: #f2f2f2;
-}
-
-.colorado {
-    color: #c0392b;
 }
 
 .content {
@@ -61,36 +52,61 @@ blockquote {
     margin-inline-end: 40px;
     padding: 0 1rem;
     margin-left: 0;
-    color: #819198;
-    border-left: 0.3rem solid #dce6f0;
+    border-left: 0.3rem solid #c8ffc9;
 }
 
 blockquote:hover {
-    border-left: 0.3rem solid #8e44ad;
+    border-left: 0.3rem solid #49ff4c;
+}
+
+h3 {
+    color: #49ff4c;
+}
+
+code {
+    color: #49ff4c;
 }
 
 .site-footer {
     padding-top: 2rem;
     margin-top: 2rem;
-    border-top: solid 1px #dce6f0;
+    border-top: solid 1px #c8ffc9;
     text-align: center;
     color: #819198;
 }
 
 a:not(.btn) {
-    color: #8e44ad !important;
+    color: #49ff4c !important;
 }
 
 .dev-img {
     height: 50px;
     width: auto;
     padding: 5px 0px 10px 10px;
+    transition: transform .3s;
 }
 
-img:hover {
+.dev-img:hover {
     transform: scale(1.5);
 }
 
-img {
-    transition: transform .3s;
+.flag {
+    height: auto;
+    width: 40px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 42em) {
+    .header {
+        padding: 2rem 2rem;
+    }
+    .content {
+        padding: 1rem 3rem;
+        font-size: 1.1rem;
+    }
+    .flag {
+        height: auto;
+        width: 25px;
+        margin-right: 5px;
+    }
 }
