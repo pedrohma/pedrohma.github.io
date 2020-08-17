@@ -1,3 +1,3 @@
-# pedrohma95.github.io
+# pedrohma.github.io
 
-Personal WebSite using GitHub pages.
+Personal WebSite using GitHub pages. You can check the website [here](https://pedrohma.com/).
