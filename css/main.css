@@ -80,7 +80,7 @@ a:not(.btn) {
 }
 
 .dev-img {
-    height: 50px;
+    height: 70px;
     width: auto;
     padding: 5px 0px 10px 10px;
     transition: transform .3s;
@@ -94,6 +94,15 @@ a:not(.btn) {
     height: auto;
     width: 40px;
     margin-right: 5px;
+}
+
+.contact-me-img-icon{
+    height: 25px;
+    width: 25px;
+}
+
+.bottom50{
+    margin-bottom: 50px;
 }
 
 @media screen and (max-width: 42em) {
