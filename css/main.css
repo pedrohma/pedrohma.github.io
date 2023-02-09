@@ -101,6 +101,10 @@ a:not(.btn) {
     width: 25px;
 }
 
+.bottom50{
+    margin-bottom: 50px;
+}
+
 @media screen and (max-width: 42em) {
     .header {
         padding: 2rem 2rem;
