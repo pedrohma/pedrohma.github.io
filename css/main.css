@@ -105,6 +105,10 @@ a:not(.btn) {
     margin-bottom: 50px;
 }
 
+h6{
+    margin-left: 3%;
+}
+
 @media screen and (max-width: 42em) {
     .header {
         padding: 2rem 2rem;
@@ -117,5 +121,8 @@ a:not(.btn) {
         height: auto;
         width: 25px;
         margin-right: 5px;
+    }
+    blockquote{
+        margin-inline-end: 0px !important;
     }
 }
