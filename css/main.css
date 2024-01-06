@@ -59,6 +59,10 @@ blockquote:hover {
     border-left: 0.3rem solid #49ff4c;
 }
 
+blockquote.job{
+    border-left: 0.3rem solid #818581;
+}
+
 h3 {
     color: #49ff4c;
 }
